@@ -1,3 +1,5 @@
-## Quant.fm
+Quant FM	
+====================
+Quant FM的官方网站
 
-请使用www.quant.fm访问
+[www.quant.fm](http://www.quant.fm)

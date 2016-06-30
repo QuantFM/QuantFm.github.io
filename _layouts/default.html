@@ -3,18 +3,16 @@
 
   {% include head.html %}
 
-  <body>
+
+    <body id="page-top" class="index">
 
     {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
+    {% include podcast_grid.html %}
+    {% include about.html %}
+    {% include team.html %}
     {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
 
-  </body>
-
+    </body>
 </html>
