@@ -10,36 +10,17 @@ description: "这里是quant fm,致力于普及量化投资知识的podcast"
 people:
 - name: Alfred
   pic: 1
-  position: Founder & 主播
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  position: Founder
 
-- name: Veratulips
+- name: Yixue
   pic: 2
-  position: Founder & 主播
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  position: Founder
+
 
 - name: You
   pic: 3
-  position: 主播
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  position: 主持人
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
