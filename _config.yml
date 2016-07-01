@@ -45,3 +45,34 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Nav
+
+nav:
+  - title: Podcast
+    url: "#podcast"
+  - title: Blog
+    url: "#blog"
+  - title: Resources
+    url: "#resource"
+  - title: Books
+    url: "#books"
+  - title: About
+    url: "#about"
+  - title: Team
+    url: "#team"
+
+#page nav
+pageNav:
+  - title: Podcast
+    url: "/podcast"
+  - title: Blog
+    url: "/blog"
+  - title: Resources
+    url: "/resources"
+  - title: Books
+    url: "/books"
+  - title: About
+    url: "/about"
+  - title: Team
+    url: "/team"

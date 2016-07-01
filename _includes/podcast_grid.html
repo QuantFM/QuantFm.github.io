@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.posts %}
+            {% for post in site.posts limit:3 %}
                 <div class="col-md-4 col-sm-6 podcast-item">
                     <a href="#podcastModal{{ post.modal-id }}" class="podcast-link" data-toggle="modal">
                         <div class="podcast-hover">
@@ -34,6 +34,9 @@
                     {% endif %}
                 </div>
             {% endfor %}
+            </div>
+            <div class="row text-center">
+                <a href="/podcast" class="btn btn-xl">More</a>
             </div>
         </div>
     </section>

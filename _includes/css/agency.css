@@ -231,6 +231,11 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+
+.page-content {
+    margin: 60px auto;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -259,6 +264,10 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    .page-content {
+        margin: 80px auto;
     }
 }
 
@@ -442,6 +451,15 @@ section h3.section-subheading {
     #podcast .podcast-item {
         margin: 0 0 30px;
     }
+}
+
+
+.books-link {
+
+}
+
+.books-link img {
+    max-width: 220px;
 }
 
 .timeline {
