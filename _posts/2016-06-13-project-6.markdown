@@ -6,10 +6,10 @@ modal-id: 6
 date: 2016-06-15
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
+audio: http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_85.mp3
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: 这里是这期节目的介绍,简单的用140字以内的文字介绍一下都讲了些什么内容.
 ---

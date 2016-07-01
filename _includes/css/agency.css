@@ -401,7 +401,7 @@ section h3.section-subheading {
 
 #podcast .podcast-item .podcast-caption {
     margin: 0 auto;
-    padding: 25px;
+    padding: 25px 25px 5px 25px;
     max-width: 400px;
     text-align: center;
     background-color: #fff;
@@ -412,12 +412,27 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#podcast .podcast-item .podcast-caption p {
-    margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
+#podcast .podcast-item .podcast-caption h5 {
     font-style: italic;
 }
+
+#podcast .podcast-item .podcast-caption p {
+    margin: 0;
+    text-align: left;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 14px;
+}
+
+#podcast .podcast-item .podcast-audio {
+    margin: 0 auto;
+    height: 30px;
+    max-width: 400px;
+}
+
+#podcast .podcast-item .podcast-audio audio {
+    width: 100%;
+}
+
 
 #podcast * {
     z-index: 2;
