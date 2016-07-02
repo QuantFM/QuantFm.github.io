@@ -35,7 +35,11 @@
                     {%else%}
 
                         {% for nav in site.pageNav %}
+                            {% if nav.title == page.title %}
+                            <li class="active">
+                            {%else%}
                             <li>
+                            {% endif%}
                                 <a class="page-scroll" href="{{ nav.url }}">{{ nav.title }}</a>
                             </li>
                         {% endfor %}
