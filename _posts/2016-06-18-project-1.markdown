@@ -9,7 +9,8 @@ thumbnail: dreams-thumbnail.png
 audio: http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_85.mp3
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
+guest: Start Bootstrap
+host: Yixue
 category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
