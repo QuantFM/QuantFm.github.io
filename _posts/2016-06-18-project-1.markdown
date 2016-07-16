@@ -6,7 +6,7 @@ modal-id: 1
 date: 2016-06-18
 img: dreams.png
 thumbnail: dreams-thumbnail.png
-audio: http://quantfm.b0.upaiyun.com/quantfm-001-demo.mp3
+audio: http://quantfm.b0.upaiyun.com/quantfm_001.mp3
 alt: image-alt
 project-date: April 2014
 guest: Start Bootstrap
