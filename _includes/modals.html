@@ -1,6 +1,7 @@
  <!-- podcast Modals -->
- {% for post in site.posts limit:3%}
-    <div class="podcast-modal modal fade" id="podcastModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for post in site.posts%}
+
+ <div class="podcast-modal modal fade" id="podcastModal{{ post.modal-id }}" data-id="{{post.modal-id}}" data-title="{{post.title}}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -24,7 +25,7 @@
                                     </strong>
                                 </li>
                             </ul>
-                            <img src="img/podcast/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="/img/podcast/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             {% if post.audio %}
                             <div class="podcast-audio">
@@ -35,11 +36,24 @@
                             <div class="podcast-audio">
                             </div>
                             {% endif %}
+                            <div id="comment{{post.modal-id}}">
+
+                            </div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
+
+ {% if forloop.index == 3 and page.id == 'index' %}
+
+ {% break %}
+
+ {% endif %}
+
 {% endfor %}
+
+
