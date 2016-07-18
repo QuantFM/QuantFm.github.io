@@ -35,5 +35,9 @@ $('div.modal').on('show.bs.modal', function() {
     //配置comment参数
     showComment(destId, url, title)
 
-
 });
+
+//处理站外链接的跳转
+$('.modal-content a').filter(function() {
+    return this.hostname != window.location.hostname;
+}).attr('target', '_blank');
