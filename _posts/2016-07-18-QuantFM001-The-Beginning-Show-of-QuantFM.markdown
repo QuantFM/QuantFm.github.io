@@ -11,7 +11,7 @@ alt: image-alt
 guest: Yixue,Alfred
 host: Yixue
 category: Quant
-description: 终于发布了第一期，由Yixue主持，参与嘉宾有Alfred。两位 QuantFM 的主持人讨论了 QuantFM 是什么，有哪些主要的内容。之后是为什么要做量化投资以及创办一个量化投资相关的博客节目。
+description: 终于发布了第一期，由Yixue主持，参与嘉宾有Alfred。两位 QuantFM 的主持人讨论了 QuantFM 是什么，有哪些主要的内容。之后是为什么要做量化投资以及创办一个量化投资相关的播客节目。
 
 ---
 
