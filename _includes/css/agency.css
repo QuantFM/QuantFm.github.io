@@ -834,6 +834,12 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
+
+.podcast-modal .modal-content ul, .podcast-modal .modal-content h3, .podcast-modal .modal-content p {
+    text-align: left;
+}
+
+
 .podcast-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: {{ site.data.template.font.secondary }};
@@ -841,9 +847,10 @@ ul.social-buttons li a:active {
     font-style: italic;
 }
 
-.podcast-modal .modal-content ul.list-inline {
+.podcast-modal .modal-content p.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .podcast-modal .modal-content img {

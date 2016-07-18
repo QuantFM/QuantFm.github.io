@@ -15,18 +15,13 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <ul class="list-inline item-details">
-                                <li>Guest:
-                                    <strong>{{ post.guest }}
-                                    </strong>
-                                </li>
-                                <li>Host:
-                                    <strong>{{ post.host }}
-                                    </strong>
-                                </li>
-                            </ul>
+                            <p class="list-inline item-details">
+                                <span>Guest:&nbsp;<strong>{{ post.guest }}</strong></span>
+                                <span>&nbsp;&nbsp;</span>
+                                <span>Host:&nbsp;<strong>{{ post.host }}</strong></span>
+                            </p>
                             <img src="/img/podcast/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+
                             {% if post.audio %}
                             <div class="podcast-audio">
                                 <audio controls name="media" src="{{ post.audio }}">
@@ -36,9 +31,12 @@
                             <div class="podcast-audio">
                             </div>
                             {% endif %}
-                            <div id="comment{{post.modal-id}}">
 
-                            </div>
+                            <p>{{ post.description }}</p>
+
+                            <p>{{ post.content }}</p>
+
+                            <div id="comment{{post.modal-id}}"></div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
