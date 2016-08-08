@@ -47,4 +47,4 @@ description: 本期由Alfred主持，Yixue同学分享了一下她是如何接�
 
 
 
-更多内容请访问:[www.quant.fm](www.quant.fm)
+更多内容请访问:[www.quant.fm](http://www.quant.fm)
