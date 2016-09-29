@@ -1,5 +1,5 @@
 ---
-title: 有效市场假说与三因子模型
+title: 套利定价理论与多因子模型
 subtitle: 现代投资组合理论发展史
 layout: default
 modal-id: 6
